@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+*{
+    
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+        -webkit-tap-highlight-color: transparent;
+    
+}  
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #031120;
+    background: #5766b9;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.desc {
+    color: #ddefe2;
+    margin: 0;
+}
+
+.info{
+    display: flex; 
+    background: rgb(164, 175, 216);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.info img {
+    width: 150px;
+}
+img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.524);
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.info-text {
+color: rgb(15, 38, 5);
+    padding: 20px 20px;
+}
+
+.info-text h4 {
+    margin: 10px 0px 10px 0px;
+    margin-top: 10px;
+}
+
+a.button10, .btn {
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    padding: .25em .5em;
+    outline: none;
+    border: 1px solid rgb(250,172,17);
+    border-radius: 7px;
+    background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+    transition: box-shadow .2s, border-color .2s;
+    
+  } 
+  a.button10:hover {
+    box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5);
+  }
+  a.button10:active {
+    padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+    border-color: rgba(177,159,0,1);
+    box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+  }
+ 
+a:hover {
+    color: salmon
+}
+
+.hobb {
+    
+    border-radius: 20px;
+    background: rgb(50, 81, 193);
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.hobb h2 {
+    
+    padding: 20px 20px 20px 20px;
+}
+
+.hobb ol {
+    padding: 0px 20px 20px 30px;
+}  
+
+.hobb li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+
+.work h2 {
+    padding: 20px 20px 20px 20px;
+}
+
+.tables {
+
+    width: 100%;
+    padding: 0px 20px 20px 30px;
+}
+
+.tables td {
+    padding-bottom: 10px;
+}
+
+.work td:nth-child(2), .work td:nth-child(3) {
+    color: rgb(48, 13, 100);
+    
+}
+
+.work {
+    border-radius: 20px;
+    background: rgb(44, 121, 82);
+    color: aliceblue;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form {
+    background: #d25050;
+    padding: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, .form-group textarea {
+    width: 50%;
+    border: none;
+    border-bottom: 1px #ccc;
+    color: #000;
+    outline: none;
+}
+
+@media(max-width: 750px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
